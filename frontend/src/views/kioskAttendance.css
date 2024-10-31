@@ -1,0 +1,47 @@
+/* custom code added - start */
+.kiosk-mode {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust vertical alignment */
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Add some padding */
+  }
+  
+  .company-logo {
+    width: 150px; /* Adjust logo size */
+    height: auto;
+  }
+  
+  .clock-buttons,
+  .camera-view {
+    display: flex;
+    gap: 20px;
+    /* Removed margin-top for better layout */
+  }
+  
+  .fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 9999;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+
+ /* custom code added - end */
+  
